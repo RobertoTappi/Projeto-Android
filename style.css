@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fonts/idroid.otf);
+}
+
+body {
+    margin: 0px;
+    background-color: #83E1AD;
+}
+
+header {
+    background-image: linear-gradient(to top, #063D1E, #3DDC84);
+    text-align: center;
+    color: white;
+}
+
+header > h1 {
+    font-size: 34px;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 0px;
+    padding-top: 25px;
+    text-shadow: 1px 1px 5px black;
+}
+
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-bottom: 35px;
+    margin-bottom: 0px;
+}
+
+nav {
+    background-color: #063D1E;
+    padding: 5px 10px;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 0px 10px;
+}
+
+nav > a:hover {
+    background-color: #ffffff4c;
+    text-decoration: underline;
+    border-radius: 5px;
+}
+
+main {
+    width: 60%;
+    margin: auto;
+    padding: 15px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    min-width: 320px;
+    max-width: 800px;
+}
+
+article > h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+    font-family: idroid, sans-serif;
+    color: #063D1E;
+}
+
+article > p {
+    text-indent: 20px;
+    text-align: justify;
+    margin: 5px;
+    padding: 10px;
+}
+
+article > h3 {
+    font-size: 22px;
+    margin: 0px 10px;
+    padding: 1px;
+    font-family: idroid, sans-serif;
+    color: #063D1E;
+    background-image: linear-gradient(to right, #83e1ad9f, #c5ebd6b1);
+    border-radius: 4px;
+}
+
+article > picture > img {
+    width: 100%;
+    justify-content: center;
+}
+
+article > img {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+div#video {
+    position: relative;
+    padding: 20px;
+    padding-bottom: 59%;
+    margin: 30px -15px 30px -15px;
+    background-color: green;
+}
+
+div#video > iframe {
+    position: absolute; 
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+section {
+    background-color: #83E1AD;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.468);
+    margin-top: 15px;
+}
+
+section > h4 {
+    background-color: #2fa866;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    margin: 0px;
+}
+
+section > p {
+    padding: 10px;
+    margin: 5px;
+}
+
+section > #l1, #l2 {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+aside > p {
+    padding: 10px;
+    margin: 5px;
+}
+
+footer > p {
+    text-align: center;
+    background-color: #063D1E;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+iframe {
+    width: 100%;
+}
